@@ -1,2 +1,7 @@
 # wordpress-4.7.3-upload-unlimited
-wordpressのUPLOAD上限を設定して起動できるDockerfile
+
+Wordpressのファイルアップロード上限を任意に変更して立てられるだけのDockerfile
+
+**デフォルトは100MB**
+
+引数に `-e MAX_FILE_SIZE=250M` ってやると250MBになったりする（と思う）
